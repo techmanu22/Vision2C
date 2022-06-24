@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "497080037595",
+    "project_id": "text-recognition-app-7c687",
+    "storage_bucket": "text-recognition-app-7c687.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497080037595:android:d38cb6e841fae6b77f1cfe",
+        "android_client_info": {
+          "package_name": "com.example.vision2c"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "497080037595-aq4otsu7u88peo6hnu71qdtrskiethjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJkQCI0FmXWXWsdChENEWqRftPE-X7gKw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "497080037595-aq4otsu7u88peo6hnu71qdtrskiethjd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

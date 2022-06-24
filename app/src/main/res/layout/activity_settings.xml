@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Settings"
+    android:textAlignment="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/Bluetooth_on"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:text="Bluetooth On"
+        />
+
+    <Button
+        android:id="@+id/Bluetooth_off"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
+        android:text="Bluetooth Off"
+        />
+
+    <Button
+        android:id="@+id/wifi_on"
+        android:text="Wifi On"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/Bluetooth_on"/>
+
+    <Button
+        android:id="@+id/wifi_off"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
+        android:text="Wifi Off"
+        android:layout_below="@id/Bluetooth_off"/>
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@id/wifi_off"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/box"
+        android:text="BACK" />
+
+</RelativeLayout>

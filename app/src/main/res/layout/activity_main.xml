@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+<!--    <Button-->
+<!--        android:id="@+id/speak"-->
+<!--        android:layout_width="192dp"-->
+<!--        android:layout_height="113dp"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginStart="210dp"-->
+<!--        android:layout_marginTop="191dp"-->
+<!--        android:layout_marginEnd="9dp"-->
+<!--        android:background="@drawable/box"-->
+<!--        android:text="speak" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/long_press"-->
+<!--        android:layout_width="192dp"-->
+<!--        android:layout_height="108dp"-->
+<!--        android:layout_below="@id/double_click"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_centerVertical="true"-->
+<!--        android:layout_marginStart="15dp"-->
+<!--        android:layout_marginTop="320dp"-->
+<!--        android:background="@drawable/box"-->
+<!--        android:text="Long Press" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/double_click"-->
+<!--        android:layout_width="182dp"-->
+<!--        android:layout_height="110dp"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_centerVertical="true"-->
+<!--        android:layout_marginTop="316dp"-->
+<!--        android:layout_marginEnd="11dp"-->
+<!--        android:background="@drawable/box"-->
+<!--        android:text="double_click" />-->
+
+    <Button
+        android:id="@+id/battery_status"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/box"
+        android:text="Battery status" />
+
+    <Button
+        android:id="@+id/view_contacts"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@id/battery_status"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/box"
+        android:text="contacts" />
+
+    <Button
+        android:id="@+id/Notes"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@id/view_contacts"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/box"
+        android:text="Notes" />
+
+    <Button
+        android:id="@+id/settings"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@id/Notes"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/box"
+        android:text="settings" />
+
+    <Button
+        android:id="@+id/btn_sms"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@id/settings"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/box"
+        android:text="SMS" />
+
+    <!--    <Button-->
+<!--        android:id="@+id/btn_text_recognition"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginStart="107dp"-->
+<!--        android:background="@drawable/box"-->
+<!--        android:layout_marginBottom="48dp"-->
+<!--        android:text="Text Recognition" />-->
+
+    <!--    <Button-->
+<!--        android:id="@+id/view_contacts"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="126dp"-->
+<!--        android:layout_below="@id/audio_dialpad"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="24dp"-->
+<!--        android:text="Contacts" />-->
+
+
+
+</RelativeLayout>
